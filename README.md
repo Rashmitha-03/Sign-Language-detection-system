@@ -1,11 +1,11 @@
 "# Sign-Language-detection-system" 
-# Sign Language Detection System 🤟
+# Sign Language Detection System 
 
 A real-time sign language detection system built using **Python, OpenCV, MediaPipe, and Machine Learning**. The application uses a webcam to capture hand gestures, extracts hand landmarks, and predicts the corresponding sign using a trained Random Forest classifier. A Tkinter-based graphical user interface displays the results.
 
 The project aims to make communication more accessible for people with hearing and speech impairments by translating recognized hand signs into text.
 
-## ✨ Features
+## Features
 
 - **Real-time gesture detection** using a webcam.
 - **Hand landmark detection** with MediaPipe.
@@ -16,7 +16,7 @@ The project aims to make communication more accessible for people with hearing a
 - **Dataset collection and labeling** for training hand gesture recognition models.
 - **Performance evaluation** using accuracy and a confusion matrix.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -30,7 +30,7 @@ The project aims to make communication more accessible for people with hearing a
 | Tkinter | Graphical user interface |
 | Pickle | Saving and loading the trained model |
 
-## ⚙️ How It Works
+##  How It Works
 
 The system follows these steps:
 
@@ -41,13 +41,13 @@ The system follows these steps:
 5. **Prediction:** The model predicts the corresponding hand gesture or alphabet.
 6. **Display:** The Tkinter interface displays the recognized result.
 
-## 📊 Model Performance
+##  Model Performance
 
 The project report records an average training accuracy of approximately **95%**.
 
 Actual recognition performance may vary depending on lighting conditions, hand positioning, partially obscured gestures, and differences between users.
 
-## 💻 System Requirements
+##  System Requirements
 
 The project report specifies the following hardware and software requirements:
 
@@ -58,7 +58,7 @@ The project report specifies the following hardware and software requirements:
 - **Python:** A compatible Python environment
 - **IDE:** Visual Studio Code or another Python-compatible editor
 
-## 🚀 Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the repository
 
@@ -118,7 +118,7 @@ python main.py
 
 **Note:** Replace `main.py` with the actual entry-point filename in your repository. The installation and execution commands should be adjusted to match the files included in the project.
 
-## 🖐️ Dataset and Training
+##  Dataset and Training
 
 The dataset was collected using real-time webcam images of hand gestures.
 
@@ -133,7 +133,7 @@ The process includes:
 
 The reported dataset covers alphabet signs from **A to Z**, with multiple frames captured from different angles.
 
-## 📁 Suggested Project Structure
+## Suggested Project Structure
 
 The following is an example structure for organizing the repository. Update it to reflect the files and directories in your actual project.
 
@@ -151,14 +151,14 @@ sign-language-detection-system/
 └── .gitignore              # Files excluded from Git
 ```
 
-## ⚠️ Limitations
+##  Limitations
 
 - Recognition may be affected by poor lighting or partially hidden hands.
 - Accuracy can vary with hand orientation, background conditions, and individual signing styles.
 - The current implementation focuses primarily on alphabet-level gesture recognition.
 - Continuous sign language interpretation, sentence construction, and support for additional sign languages require further development.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 Potential improvements include:
 
@@ -170,13 +170,13 @@ Potential improvements include:
 - Integrating wearable devices or augmented reality.
 - Allowing users to correct predictions and contribute additional training examples.
 
-## 🎯 Applications
+##  Applications
 
 - Assistive communication
 - Inclusive educational environments
-- Human-computer interaction
 - Sign language learning and demonstration
 - Accessibility-focused applications
+- Helps with sign language learning process, and active communication
 
 
 ## 🎓 Academic Project
