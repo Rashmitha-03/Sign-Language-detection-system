@@ -177,6 +177,7 @@ Potential improvements include:
 - Sign language learning and demonstration
 - Accessibility-focused applications
 - Helps with sign language learning process, and active communication
+- Can be used for easy learning 
 
 
 ## 🎓 Academic Project
