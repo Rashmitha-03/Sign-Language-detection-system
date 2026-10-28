@@ -1,4 +1,4 @@
-"# Sign-Language-detection-system" 
+
 # Sign Language Detection System 
 
 A real-time sign language detection system built using **Python, OpenCV, MediaPipe, and Machine Learning**. The application uses a webcam to capture hand gestures, extracts hand landmarks, and predicts the corresponding sign using a trained Random Forest classifier. A Tkinter-based graphical user interface displays the results.
